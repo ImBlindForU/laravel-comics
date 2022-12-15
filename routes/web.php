@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('home');
 })-> name('home');
 
-Route::get('/charachters', function () {
-    return view('charachters');
-})-> name('charachters');
+// Route::get('/charachters', function () {
+//     return view('charachters');
+// })-> name('charachters');
 
 Route::get('/comics', function () {
     return view('comics');

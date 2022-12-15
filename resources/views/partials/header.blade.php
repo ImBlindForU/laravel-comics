@@ -1,8 +1,8 @@
 <header>
+    <div class="container">
         <div class="logo">
             <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="">
         </div>
-        <nav>
             <ul>
                 <li><a href="{{ route("home")}}">home</a></li>
                 {{-- <li><a href="{{ route("characters")}}">characters</a></li> --}}
@@ -16,5 +16,9 @@
                 <li><a href="{{ route("news")}}">news</a></li>
                 <li><a href="{{ route("shop")}}">shop</a></li> --}}
             </ul>
-        </nav>
+    </div>
+    <div class="jumbo-container">
+        <img src="{{ Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
+    </div>
+       
 </header>

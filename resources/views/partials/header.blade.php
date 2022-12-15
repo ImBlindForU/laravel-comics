@@ -1,5 +1,4 @@
 <header>
-    <div class="container">
         <div class="logo">
             <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="">
         </div>
@@ -18,5 +17,4 @@
                 <li><a href="{{ route("shop")}}">shop</a></li> --}}
             </ul>
         </nav>
-    </div>
 </header>

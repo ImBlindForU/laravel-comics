@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     {{-- vite --}}
-    @vite('resourses/js/app.js')
-    <title>Document</title>
+    @vite('resources/js/app.js')
+    <title>Comics</title>
 </head>
 <body>
     @include('partials.header')
     <main>
-        @yield('content')
+        <div class="container">
+            @yield('content')
+        </div>
     </main>
 </body>
 </html>

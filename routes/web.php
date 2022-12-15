@@ -22,9 +22,11 @@ Route::get('/', function () {
 // })-> name('charachters');
 
 Route::get('/comics', function () {
-    return view('comics');
+    $data = config('comics');
+    // dd($data);
+    return view('comics', $data);
 })-> name('comics');
-
+ 
 // Route::get('/movies', function () {
 //     return view('movies');
 // })-> name('movies');
